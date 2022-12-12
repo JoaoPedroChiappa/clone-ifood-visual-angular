@@ -1,0 +1,22 @@
+<h2> Tabela </h2>
+<div>
+  <table>
+    <thead>
+      <tr>
+        <th> Nome: </th>
+        <th> Endereço: </th>
+        <th> Hora de abertura: </th>
+        <th> Hora de fechamento: </th>
+        <th> Valor da entrega: </th>
+      </tr>
+    </thead>
+    <tr *ngFor="let restaurante of restaurantes">
+      <td>{{restaurante.nome_restaurante}}</td>
+      <td>{{restaurante.endereco}}</td>
+      <td>{{restaurante.hora_abertura}}</td>
+      <td>{{restaurante.hora_fechamento}}</td>
+      <td>{{restaurante.valor_entrega}}</td>
+    </tr>
+  </table>
+</div>
+<router-outlet></router-outlet>

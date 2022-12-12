@@ -6,15 +6,15 @@ import { CarouselModule } from 'ngx-owl-carousel-o';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
-import { TittleFormComponent } from './tittle-form/tittle-form.component';
-import { CarouselComponent } from './carousel/carousel.component';
+import { RestaurantesComponent } from './restaurantes/restaurantes.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    TittleFormComponent,
-    CarouselComponent
+    RestaurantesComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,

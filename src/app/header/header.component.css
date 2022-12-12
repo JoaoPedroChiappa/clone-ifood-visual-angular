@@ -85,3 +85,7 @@ header {
   .header-right {
     float: right;
   }
+
+  a:hover{
+    background-color: transparent!important;
+  }

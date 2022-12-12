@@ -2,11 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import { OwlOptions } from 'ngx-owl-carousel-o';
 
 @Component({
-  selector: 'app-carousel',
-  templateUrl: './carousel.component.html',
-  styleUrls: ['./carousel.component.css']
+  selector: 'app-home',
+  templateUrl: './home.component.html',
+  styleUrls: ['./home.component.css']
 })
-export class CarouselComponent implements OnInit {
+export class HomeComponent implements OnInit {
 
   constructor() { }
 

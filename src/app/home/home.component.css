@@ -16,6 +16,11 @@ img {
     border-radius: 1rem;
 }
 
+.img-carousel {
+    width: 200px!important;
+    height: 150px;
+}
+
 img:hover{
     transform: scale(1.1);
 }
