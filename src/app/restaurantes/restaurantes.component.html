@@ -1,22 +1,43 @@
-<h2> Tabela </h2>
-<div>
-  <table>
-    <thead>
-      <tr>
-        <th> Nome: </th>
-        <th> Endereço: </th>
-        <th> Hora de abertura: </th>
-        <th> Hora de fechamento: </th>
-        <th> Valor da entrega: </th>
-      </tr>
-    </thead>
-    <tr *ngFor="let restaurante of restaurantes">
-      <td>{{restaurante.nome_restaurante}}</td>
-      <td>{{restaurante.endereco}}</td>
-      <td>{{restaurante.hora_abertura}}</td>
-      <td>{{restaurante.hora_fechamento}}</td>
-      <td>{{restaurante.valor_entrega}}</td>
-    </tr>
-  </table>
-</div>
-<router-outlet></router-outlet>
+<main class="st_viewport">
+  <div class="st_wrap_table" data-table_id="0">
+    <header class="st_table_header">
+      <h2>Table header one</h2>
+      <div class="row">
+        <div class="col-md-3">
+          <div class="st_column _rank">Nome</div>
+        </div>
+        <div class="col-md-2">
+          <div class="st_column _name">Endereço</div>
+        </div>
+        <div class="col-md-2">
+          <div class="st_column _surname">Hora de abertura</div>
+        </div>
+        <div class="col-md-2">
+          <div class="st_column _year">Hora de fechamento</div>
+        </div>
+        <div class="col-md-3">
+          <div class="st_column _section">Valor de entrega mínimo</div>
+        </div>
+      </div>
+    </header>
+    <div class="st_table">
+      <div class="row" *ngFor="let restaurante of restaurantes">
+        <div class="col-md-3">
+          <div class="st_column _rank">{{restaurante.nome_restaurante}}</div>
+        </div>
+        <div class="col-md-2">
+          <div class="st_column _name">{{restaurante.endereco}}</div>
+        </div>
+        <div class="col-md-2">
+          <div class="st_column _surname">{{restaurante.hora_abertura}}</div>
+        </div>
+        <div class="col-md-2">
+          <div class="st_column _year">{{restaurante.hora_fechamento}}</div>
+        </div>
+        <div class="col-md-3">
+          <div class="st_column _section">{{restaurante.valor_entrega}}</div>
+        </div>
+      </div>
+    </div>  
+  </div> 
+</main>
