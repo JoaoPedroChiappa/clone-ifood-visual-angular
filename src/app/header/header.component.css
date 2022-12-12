@@ -1,0 +1,87 @@
+@import 'material-icons/iconfont/material-icons.css';
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    box-sizing: border-box;
+    position: static;
+}
+
+.logo{
+  width: 95px;
+}
+
+.button-red{
+    background: red;
+    color: white;
+    border-radius: 6px;
+    border: none;
+    height: 44px;
+    cursor: pointer;
+    width: 200%;
+    justify-content: center;
+    font-size: 1rem;
+}
+
+.text-red{
+    color: red!important;
+    text-transform: lowercase;
+}
+
+.direita{
+    display: flex;
+    position: relative;
+    left: 26rem;
+    top: 1.5rem;
+}
+
+table{
+    position: relative;
+    top:1.2rem;
+    left: 4rem;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #f7f7f7;
+    z-index: 9997;
+    height: 20%;
+  }
+  
+  /* Style the header links */
+  header a {
+    float: left;
+    color: #3e3e3e;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 1rem;
+    line-height: 25px;
+    border-radius: 4px;
+  }
+  
+  /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+  header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  /* Change the background color on mouse-over */
+  header a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Style the active/current link*/
+  header a.active {
+    background-color: dodgerblue;
+    color: white;
+  }
+  
+  /* Float the link section to the right */
+  .header-right {
+    float: right;
+  }

@@ -1,0 +1,101 @@
+@import 'material-icons/iconfont/material-icons.css';
+
+body{
+    background-color: #f7f7f7;
+    height:25rem;
+}
+
+input{
+    direction: ltr;
+    padding-left: 2rem;
+    border: none;
+}
+
+img {
+    transition: transform .3s;
+    border-radius: 1rem;
+}
+
+img:hover{
+    transform: scale(1.1);
+}
+
+.conteudo{
+    padding-top: 1.5rem;
+}
+
+.tittle-principal{
+    font-size: 2.25rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 35px;
+}
+
+.tittle-secundario{
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: grey;
+}
+
+.button-red{
+    background: red;
+    color: white;
+    border-radius: 6px;
+    border: none;
+    height: 44px;
+    cursor: pointer;
+    width: 200%;
+    justify-content: center;
+    font-size: 1rem;
+}
+
+.input-buscar{
+    margin-top: 2.5rem;
+    margin-left: 10rem;
+}
+
+.icon-placeholder{
+    margin-top: 0.73rem;
+    margin-left: 0.3rem;
+    position: absolute;
+    color: red;
+}
+
+.search-bar{
+    margin-top: 0.3rem;
+    position: inherit;
+}
+
+.img-cima{
+    width: 35%!important;
+    height: 100%;
+    margin-right: 20px;
+    position: relative;
+    left: 3rem;
+}
+
+.img-baixo{
+    width: 15%!important;
+    height: 100%;
+    padding: 7px;
+    position: relative;
+    left: 18rem;
+}
+
+.img-link-cima{
+    position: relative;
+    bottom: 7rem;
+    margin-right: 10px!important;
+}
+
+.img-link-baixo{
+    position: relative;
+    bottom: 5rem;
+}
+
+.linha{
+    position: relative;
+    left: 2rem;
+    bottom: 1rem;
+}
