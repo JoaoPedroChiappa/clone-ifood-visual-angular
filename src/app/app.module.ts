@@ -9,6 +9,7 @@ import { HeaderComponent } from './header/header.component';
 import { RestaurantesComponent } from './restaurantes/restaurantes.component';
 import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
+import { AdminComponent } from './admin/admin.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { LoginComponent } from './login/login.component';
     HeaderComponent,
     RestaurantesComponent,
     HomeComponent,
-    LoginComponent
+    LoginComponent,
+    AdminComponent
   ],
   imports: [
     BrowserModule,
@@ -24,7 +26,7 @@ import { LoginComponent } from './login/login.component';
     BrowserModule,
     BrowserAnimationsModule,
     CarouselModule,
-    HttpClientModule
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

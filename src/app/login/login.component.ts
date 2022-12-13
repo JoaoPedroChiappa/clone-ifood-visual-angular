@@ -10,8 +10,12 @@ export class LoginComponent implements OnInit {
 
   constructor(private router: Router) {}
 
-  newChange(): void {
+  ChangeHome(): void {
     this.router.navigateByUrl('');
+  }
+
+  ChangeAdmin(): void {
+    this.router.navigateByUrl('Admin');
   }
 
   ngOnInit(): void {

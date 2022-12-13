@@ -1,0 +1,58 @@
+<main class="st_viewport tabela">
+    <div class="st_wrap_table" data-table_id="0">
+      <header class="st_table_header">
+        <h2> Restaurantes </h2>
+        <hr size="1" width="100%" class="linha">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="st_column _rank">Nome</div>
+          </div>
+          <div class="col-md-2">
+            <div class="st_column _name">Endereço</div>
+          </div>
+          <div class="col-md-2">
+            <div class="st_column _surname">Hora de abertura</div>
+          </div>
+          <div class="col-md-2">
+            <div class="st_column _year">Hora de fechamento</div>
+          </div>
+          <div class="col-md-3">
+            <div class="st_column _section">Valor de entrega mínimo</div>
+          </div>
+        </div>
+      </header>
+      <div class="st_table">
+        <div class="row" *ngFor="let restaurante of restaurantes">
+          <div class="col-md-3">
+            <div class="st_column _rank">{{restaurante.nome_restaurante}}</div>
+          </div>
+          <div class="col-md-2">
+            <div class="st_column _name">{{restaurante.endereco}}</div>
+          </div>
+          <div class="col-md-2">
+            <div class="st_column _surname">{{restaurante.hora_abertura}}</div>
+          </div>
+          <div class="col-md-2">
+            <div class="st_column _year">{{restaurante.hora_fechamento}}</div>
+          </div>
+          <div class="col-md-3">
+            <div class="st_column _section">{{restaurante.valor_entrega}}</div>
+          </div>
+        </div>
+      </div>  
+    </div> 
+  </main>
+
+<div class="container box">
+    <div class="row">
+        <div class="col-md-4">
+            <button type="button" class="btn btn-primary button"> Adicionar empresa </button>
+        </div>
+        <div class="col-md-4">
+            <button type="button" class="btn btn-primary button"> Editar empresa </button>
+        </div>
+        <div class="col-md-4">
+            <button type="button" class="btn btn-primary button"> Excluir empresa </button>
+        </div>
+    </div>
+</div>
