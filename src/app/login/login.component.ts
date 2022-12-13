@@ -2,16 +2,16 @@ import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 
 @Component({
-  selector: 'app-header',
-  templateUrl: './header.component.html',
-  styleUrls: ['./header.component.css']
+  selector: 'app-login',
+  templateUrl: './login.component.html',
+  styleUrls: ['./login.component.css']
 })
-export class HeaderComponent implements OnInit {
+export class LoginComponent implements OnInit {
 
   constructor(private router: Router) {}
 
   newChange(): void {
-    this.router.navigateByUrl('Login');
+    this.router.navigateByUrl('');
   }
 
   ngOnInit(): void {

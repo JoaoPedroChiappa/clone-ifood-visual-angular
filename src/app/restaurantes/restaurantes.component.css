@@ -111,3 +111,9 @@
   .st_column{
     padding: 10px 20px;
   }
+
+  .linha{
+    position: relative;
+    top: 5px;
+    color: white;
+}

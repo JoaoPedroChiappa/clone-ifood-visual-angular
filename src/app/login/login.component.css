@@ -1,0 +1,36 @@
+.margem-superior{
+    margin-top: 5rem;
+    background-color: red;
+    width: 40%;
+    height: 300px;
+    border-radius: 2rem;
+}
+
+.box{
+    width: 70%;
+    position: relative;
+    top: 10%;
+    left: 5.3rem;
+}
+
+h3{
+    text-align: center;
+    color: white;
+    margin-bottom: 2rem
+}
+
+button{
+    color: white;
+    background-color: red;
+    border-color: red;
+    width: 25%;
+    position: relative;
+    left: 11%;
+    margin-right: 5rem;
+}
+
+.button:hover {
+    color: red;
+    background-color: white;
+    border-color: white;
+}
