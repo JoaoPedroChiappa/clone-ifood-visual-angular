@@ -1,27 +1,9 @@
-# CloneIfood
+Prints from local website:
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.10.
+Home 1 => (https://user-images.githubusercontent.com/84603507/207377055-4440cca6-6870-4bb3-aa45-b313f1aabba0.png)
 
-## Development server
+Home 2 => (https://user-images.githubusercontent.com/84603507/207377060-1a6cc177-f8c1-477a-adea-d32826a1811e.png)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Login => (https://user-images.githubusercontent.com/84603507/207377062-cbd4d06a-c984-4ed0-b755-0dbd3314d0a9.png)
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Restaurants => (https://user-images.githubusercontent.com/84603507/207377064-e201faf3-4bb9-4a98-aae5-f4646e41ac5a.png)
